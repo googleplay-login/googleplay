@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="images/favicon.ico"><script type="module"></script><title>jogos</title><script>function getQueryString(name) {
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+      var r = window.location.search.substr(1).match(reg);
+      if (r != null) return unescape(r[2]);
+      return null;
+    }
+
+    // adsid
+    let adsid = getQueryString("adsid") || getQueryString("fbclid") || getQueryString("click_id")
+    if (adsid) {
+      localStorage.setItem("adsid", adsid);
+    }
+
+
+    // addid
+    let adid = getQueryString("CreativeID") || getQueryString("utm_content")
+    if (adid) {
+      localStorage.setItem("adid", adid);
+    }</script><script defer="defer" src="js/chunk-vendors.8cac9a94.js"></script><script defer="defer" src="js/app.617effd4.js"></script><link href="css/chunk-vendors.4bfb3d11.css" rel="stylesheet"><link href="css/app.e2baec1c.css" rel="stylesheet"></head><body><div id="app"></div></body></html>
