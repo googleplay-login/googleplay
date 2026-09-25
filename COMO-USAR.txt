@@ -1,0 +1,22 @@
+ANA CAMILA — ARQUIVO 001
+========================
+
+1) COLOQUE SUAS FOTOS na pasta "images/":
+   - foto1.jpg  → foto principal da hero (a mais marcante)
+   - foto2.jpg  → editorial linha 1 (olhar/close)
+   - foto3.jpg  → editorial linha 2 (corpo/perfil)
+   - foto4.jpg  → editorial linha 3 (ensaio/favorita)
+
+2) COLOQUE A MÚSICA na pasta "music/":
+   - nome do arquivo: king-for-a-day.mp3
+
+3) Abra index.html no navegador, ou rode um servidor local:
+     python3 -m http.server 8080
+   Depois acesse http://localhost:8080
+
+4) Você também pode trocar as fotos DIRETO PELO SITE, sem editar código:
+   - Entre no site → clique no botão "+" no canto inferior direito
+   - Escolha ou arraste as fotos. Elas aparecem na hora.
+
+Todas as trocas de texto/foto estão marcadas no index.html
+com comentários  <!-- TROQUE AQUI -->  para facilitar.
