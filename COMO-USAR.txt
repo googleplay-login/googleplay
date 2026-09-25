@@ -1,0 +1,32 @@
+ANA CAMILA — ARQUIVO 001
+========================
+
+✅ O SITE JÁ ESTÁ PRONTO. Os caminhos das fotos e da música já estão
+configurados — é só colocar os arquivos nas pastas e abrir o index.html.
+
+ESTRUTURA:
+  index.html               → abra no navegador
+  images/foto1.jpg         → foto da HERO (a mais marcante dela)
+  images/foto2.jpg         → editorial linha 1 (olhar / close)
+  images/foto3.jpg         → editorial linha 2 (corpo / perfil)
+  images/foto4.jpg         → editorial linha 3 (ensaio / favorita)
+  music/king-for-a-day.mp3 → música King For a Day (Pierce The Veil)
+
+COMO USAR:
+  1. Coloque suas 4 fotos na pasta "images/" com EXATAMENTE esses nomes
+     (foto1.jpg, foto2.jpg, foto3.jpg, foto4.jpg).
+     .jpg, .jpeg, .png, .webp — todos funcionam.
+  2. Coloque a música em "music/king-for-a-day.mp3".
+  3. Dê dois cliques em index.html.
+     Se o navegador bloquear áudio/file em file://, rode:
+       python3 -m http.server 8080
+     e abra http://localhost:8080
+
+  4. Entre no site e clique em "● CLIQUE PARA ENTRAR".
+
+TROCAR FOTOS SEM MEXER EM CÓDIGO:
+  Dentro do site, clique no botão "+" no canto inferior direito.
+  Por ali você escolhe ou arrasta as fotos — elas substituem na hora.
+
+Se as fotos ainda não estiverem na pasta, o site mostra um placeholder
+preto elegante — nada quebrado.

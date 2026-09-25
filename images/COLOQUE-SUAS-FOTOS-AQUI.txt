@@ -1,0 +1,5 @@
+Coloque aqui suas fotos com estes nomes:
+  foto1.jpg  -> hero (foto principal, a mais marcante)
+  foto2.jpg  -> editorial linha 1 (close / olhar)
+  foto3.jpg  -> editorial linha 2 (corpo / perfil)
+  foto4.jpg  -> editorial linha 3 (ensaio / favorita)
